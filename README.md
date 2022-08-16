@@ -43,6 +43,8 @@ The structure is: 1'b Func, 8'h register_address, 8'h data.
  In the RS232 debugger terminal, power-up will log the transmitted TX_TABLE_data initialization sequence, then
 leave you with the last address and data sent to be edited.
 
+![plot](https://github.com/BrianHGinc/BHG_I2C_init_RS232_debugger/blob/main/screenshots/BHG_I2C_init_RS232_debugger_ss.png)
+
  Pressing the W / R will quickly toggle the I2C_Device_Address between a read and write address.
 Using backspace and entering new hex numbers will edit your command line.  Until you hit enter,
 the edit line will not be transmitted.
