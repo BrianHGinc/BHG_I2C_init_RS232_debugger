@@ -8,7 +8,7 @@ Create and debug an I2C startup sequence with an integrated RS232 terminal edito
 then, optionally disable the RS232 leaving a minimal initialization HDL.
 
 Written by Brian Guralnick.
-https://github.com/BrianHGinc / or / https://www.eevblog.com/forum/fpga/ User BrianHG.
+https://github.com/BrianHGinc / or / https://www.eevblog.com/forum/fpga/bhg_i2c_init_rs232_debugger-an-i2c-initializer-with-integrated-rs232-debugger/
 
 
 To simulate this project in Modelsim:
