@@ -2,6 +2,12 @@
 BHG_I2C_init_RS232_debugger is an I2C initializer with integrated RS232 debugger.
 
 ***************************************************************************************************************
+New v1.1 Features:
+- Changes the source file from a .v to a .sv for better compiler compatibility.
+- Added parameters CLK_STRETCH.  Enable with TRI_I2C_scl to properly support the feature.
+- Added on line 2, an optional `define  USE_SEPARATE_DIN_DOUT_OE, which changes the I2C bus from 2x INOUTs to 6 ports, SCL/SDA _in, _out, _oe for manually driving Efinix's IO primitive.
+
+***************************************************************************************************************
 BHG_I2C_init_RS232_debugger.v & testbench  V1.0, August 2022.
 ---------------------------------------------------------------------------------------------------------------
 Create and debug an I2C startup sequence with an integrated RS232 terminal editor,
