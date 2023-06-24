@@ -22,6 +22,7 @@ add wave -hexadecimal I2C_scl
 add wave -hexadecimal I2C_sda
 add wave -hexadecimal I2C_ack_error
 add wave -divider     "I2C seq ctl"
+add wave -hexadecimal I2C/clk_hold 
 add wave -hexadecimal I2C/rr    
 add wave -unsigned    I2C/mst_cnt
 add wave -unsigned    I2C/ms_cnt_len
