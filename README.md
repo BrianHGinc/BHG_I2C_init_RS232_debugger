@@ -6,6 +6,7 @@ New v1.1 Features:
 - Changes the source file from a .v to a .sv for better compiler compatibility.
 - Added parameters CLK_STRETCH.  Enable with TRI_I2C_scl to properly support the feature.
 - Added on line 2, an optional `define  USE_SEPARATE_DIN_DOUT_OE, which changes the I2C bus from 2x INOUTs to 6 ports, SCL/SDA _in, _out, _oe for manually driving Efinix's IO primitive.
+- visit https://www.eevblog.com/forum/fpga/bhg_i2c_init_rs232_debugger-an-i2c-initializer-with-integrated-rs232-debugger/ for history.
 
 ***************************************************************************************************************
 BHG_I2C_init_RS232_debugger.v & testbench  V1.0, August 2022.
